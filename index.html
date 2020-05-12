@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Donavi.</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/image-scaling.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="collapse navbar-collapse">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo/logo.png" alt="">
+        </a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Doni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- home section -->
+    <section class="home-section">
+      <div class="row">
+        <div class="col">
+          <div class="gifting-made-easy">
+            <h1>
+              <span style="color: #FC8901;">Gifting.</span>
+              <br>
+              <span style="color: #010155">Made Easy.</span>
+            </h1>
+            <button type="button" class="btn btn-subscribe" onclick="document.getElementById('subscribe-home').style.display='block'">
+              Subscribe
+            </button>
+
+            <div id="subscribe-home" class="modal">
+              <span onclick="document.getElementById('subscribe-home').style.display='none'" class="close" title="Close Modal">times;</span>
+              <form class="modal-content" action="subscribe.php">
+                <div class="container">
+                  <h1>Subscribe</h1>
+                  <hr>
+
+                  <div class="form-content">
+                    <label for="name"><b>Name</b></label>
+                    <br>
+                    <input type="text" placeholder="Enter Name" name="name" required>
+                    <br>
+                    <label for="email"><b>Email</b></label>
+                    <br>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <div class="clearfix">
+                      <button type="button" onclick="document.getElementById('subscribe-home').style.display='none'" class="cancelbtn">Cancel</button>
+                      <button type="submit" class="subscribebtn">Subscribe</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <img src="img/phone/home-page-phone.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- meet doni -->
+    <section class="meet-doni-section">
+      <div class="meet-doni-header">
+          <h1>Meet Doni.</h1>
+      </div>
+
+      <div class="container">
+        <div class="row meet-doni-row align-item-center">
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left:12.5%;">
+              <div class="card-body">
+                <div class="card-icon">
+                  <img src="img/icon/clock.png" alt="" id="clock-icon">
+                </div>
+                <h4 class="card-title">IT'S FAST.</h4>
+                <div class="card-text-container" style="font-size: 20px; margin-top:25px;">
+                  <p class="card-text">
+                    Find the perfect gift for your loved one in less than 10 minutes – without even leaving your seat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left:12.5%;">
+              <div class="card-body">
+                <div class="card-icon">
+                  <img src="img/icon/easy.png" alt="" id="easy-icon">
+                </div>
+                <h4 class="card-title">IT'S EASY.</h4>
+                <div class="card-text-container">
+                  <p class="card-text" style="font-size: 20px; margin-top:25px;">
+                    Master the art of gifting with our recommendations – the easy way.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left:12.5%;">
+              <div class="card-body">
+                <div class="card-icon">
+                  <img src="img/icon/unique-icon.png" alt="" id="clock-icon">
+                </div>
+                <h4 class="card-title">IT'S UNIQUE.</h4>
+                <div class="card-text-container">
+                  <p class="card-text" style="font-size: 20px; margin-top:25px;">
+                    Enjoy a gift recommendation tailored just for your loved one.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works-section">
+      <div class="how-it-works-header">
+        <h1>HOW IT WORKS</h1>
+      </div>
+    </section>
+
+    <!-- NAVIGATION -->
+    <section class="navigation-section">
+
+      <!-- banner 1 -->
+      <div class="navigation-banner-right">
+        <div class="row align-items-center navigation1">
+          <div class="step-number-left">
+            <h1>01</h1>
+          </div>
+
+          <div class="navigation-image-left">
+            <!-- <img src="img/phone/blank-iphone.png" alt=""> -->
+
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page1.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page1-click.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page1-continue.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page2.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page2-click.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page2-setpage.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page2-continue.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page3.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page3-enter.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page3-continue.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page4.png" alt="">
+            </div>
+            <div class="imgslide1">
+              <img src="img/navigation/step1/page4-continue.png" alt="">
+            </div>
+
+          </div>
+
+          <div class="navigation-description-right">
+            <p>
+              Choose occasion, your relation to the gift receiver, their age and gender. Tell us your budget too.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- banner 2 -->
+      <div class="navigation-banner-left">
+        <div class="row align-items-center navigation1">
+          <div class="navigation-description-left">
+            <p>
+              Help us tailor a unique gift by choosing their preferences. Answer a couple of fun questions about the lucky gift receiver to do that.
+            </p>
+          </div>
+
+          <div class="navigation-image-right">
+            <!-- <img src="img/phone/blank-iphone.png" alt=""> -->
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page1.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page1-click.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page2.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page2-click.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page3.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page3-click.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page4.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page4-click.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page5.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page5-click.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page6.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page6-click.png" alt="">
+            </div>
+            <div class="imgslide2">
+              <img src="img/navigation/step2/page6-continue.png" alt="">
+            </div>
+
+          </div>
+
+          <div class="step-number-right">
+            <h1>02</h1>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- banner 3 -->
+      <div class="navigation-banner-right">
+        <div class="row align-items-center navigation1">
+          <div class="step-number-left">
+            <h1>03</h1>
+          </div>
+
+          <div class="navigation-image-left">
+            <!-- <img src="img/phone/blank-iphone.png" alt=""> -->
+            <div class="imgslide3">
+              <img src="img/navigation/step3/page1.png" alt="">
+            </div>
+            <div class="imgslide3">
+              <img src="img/navigation/step3/page2.png" alt="">
+            </div>
+
+          </div>
+
+          <div class="navigation-description-right">
+            <p>
+              See your gift recommendations – a maximum of 2-4 items will be suggested.
+              Checkout externally if you are satisfied, or give us more information so we could find a better gift.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="magic-header">
+      <h1>We do the magic for you with a few clicks.</h1>
+    </section>
+
+    <!-- our story -->
+    <section class="intro-section">
+      <div class="our-story">
+        <div class="row">
+          <div class="col">
+            <div class="our-story-image">
+              <img src="img/img/gift-guy.png" alt="">
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="our-story-header">
+              <h1>OUR STORY</h1>
+            </div>
+            <div class="our-story-description">
+              <p>
+                Online shopping sites contain infinite brands and products.
+                Navigating through those sites for hours to find a gift is hard & time consuming.
+                So we gathered our team to put an end to this!
+                <br><br>
+                We created a simple, unique and easy gift recommendation engine for you, which recommends products of popular brands.
+                <br><br>
+                Donavi only asks you a couple of questions to tailor the perfect gift for loved one – for you to enjoy the satisfaction of buying a good gift, the easy way.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="our-vision">
+        <div class="row">
+          <div class="col">
+            <div class="our-vision-header">
+              <h1>OUR VISION</h1>
+            </div>
+            <div class="our-vision-description">
+              <p>
+                Everyone loves a well-thought gift. But getting creative when choosing a gift is hard...
+                And there are many options to choose from... We don’t think it has to be that way.
+                <br><br>
+                We understand that you might be busy or undecisive when it comes to gifting.
+                So, we decided to say no to a disorganized and overwhelming gifting site.
+                <br><br>
+                With Donavi, never spend frustrated & confused hours again on choosing gifts!
+                You’ll be out of here happy & satisfied in under 10 minutes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="our-vision-image">
+          <img src="img/img/factory.png" alt="">
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- launching soon -->
+    <section class="launching-soon-section">
+      <h1><span style="color: #FC8901">Soon to be launched.</span></h1>
+      <h2><span style="color: #010155">
+        Our team at Donavi is working to create the best app for you!
+        Drop your email & name below so that you don't miss out on getting notified when Donavi is ready for you.
+      </span></h2>
+
+      <div class="subscribe-section">
+        <!-- button to subscribe -->
+        <div class="subscribe-button">
+          <button onclick="document.getElementById('subscribe-form').style.display='block'">
+            <img src="img/icon/gift.png" alt="">
+            Subscribe
+          </button>
+        </div>
+
+        <div id="subscribe-form" class="modal">
+          <span onclick="document.getElementById('subscribe-form').style.display='none'" class="close" title="Close Modal">times;</span>
+          <form class="modal-content">
+            <div class="container">
+              <h1>Subscribe</h1>
+              <hr>
+
+              <div class="form-content">
+                <label for="name"><b>Name</b></label>
+                <br>
+                <input type="text" placeholder="Enter Name" name="name" required id="name">
+                <br>
+                <label for="email"><b>Email</b></label>
+                <br>
+                <input type="text" placeholder="Enter Email" name="email" required id="email">
+
+                <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('subscribe-form').style.display='none'" class="cancelbtn">Cancel</button>
+                  <button type="submit" class="subscribebtn">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- bottom header -->
+    <!-- <section class="bottom-header">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="left-button">
+            <div class="row align-items-center">
+              <button type="button" name="button">Support</button>
+            </div>
+            <div class="row align-items-center">
+              <button type="button" name="button">The Team</button>
+            </div>
+            <div class="row align-items-center">
+              <button type="button" name="button">Affiliates</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <img src="img/logo/logo.png" alt="">
+          <p> © 2020 Donavi. All rights reserved.</p>
+        </div>
+        <div class="col">
+          <div class="right-button">
+            <div class="row align-items-center">
+              <button type="button" name="button">Terms</button>
+            </div>
+            <div class="row align-items-center">
+              <button type="button" name="button">Privacy</button>
+            </div>
+            <div class="row align-items-center">
+              <button type="button" name="button">Contact</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section> -->
+
+
+    <section class="bottom-buttons">
+      <div class="row">
+        <div class="col">
+          <button type="button" name="button">Support</button>
+          <button type="button" name="button">Contact</button>
+          <button type="button" name="button">Terms & Privacy</button>
+          <button type="button" name="button">Affiliates</button>
+          <button type="button" name="button">The Team</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- bottom header -->
+    <section class="bottom-header">
+      <img src="img/logo/logo.png" alt="">
+      <p> © 2020 Donavi. All rights reserved.</p>
+    </section>
+
+
+    <script>
+      var modal_home = document.getElementById('subscribe-home');
+      var modal = document.getElementById('subscribe-form');
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal_home) {
+            modal_home.style.display = "none";
+          }
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+
+      var slideIndex = 0;
+      var slideIndex1 = 0;
+      var slideIndex2 = 0;
+      showSlides();
+      showSlides1();
+      showSlides2();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("imgslide1");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 1500);
+      }
+
+      function showSlides1() {
+        var i;
+        var slides = document.getElementsByClassName("imgslide2");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex1++;
+        if (slideIndex1 > slides.length) {slideIndex1 = 1}
+        slides[slideIndex1-1].style.display = "block";
+        setTimeout(showSlides1, 1500);
+      }
+
+      function showSlides2() {
+        var i;
+        var slides = document.getElementsByClassName("imgslide3");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex2++;
+        if (slideIndex2 > slides.length) {slideIndex2 = 1}
+        slides[slideIndex2-1].style.display = "block";
+        setTimeout(showSlides2, 1500);
+      }
+
+
+    </script>
+
+  </body>
+</html>
