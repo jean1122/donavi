@@ -9,13 +9,22 @@ body {
   min-width: 100% !important;
   font-family: 'Gothic A1', sans-serif;
   /* background-image: url("../img/background/background.jpg"); */
-  background-image: url("../img/background/background.svg");
+  /* background-image: url("../img/background/background.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; */
+  background: white;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; */
+}
+
+@media (min-width: 426px) {
+  body {
+    background-image: url("../img/background/background.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 }
 
 /***** NAVBAR *****/
@@ -25,12 +34,12 @@ body {
 }
 
 .nav-item a {
-  color: black !important;
+  color: #010155 !important;
   font-weight: bold;
 }
 
 .nav-item a:hover{
-  color: black;
+  color: #010155;
   text-decoration: underline;
 }
 
@@ -108,6 +117,23 @@ body {
   }
 
 }
+
+@media (max-width: 426px) {
+  .navbar-brand img {
+    max-height: 68px;
+  }
+
+  .nav-item a {
+    font-size: 12px;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
 
 /***** HOME SECTION *****/
 
@@ -1165,8 +1191,8 @@ body {
 }
 
 .subscribe-button button{
-  border-color: #00008D;
-  color: #00008D;
+  border-color: #010155;
+  color: #010155;
   border-radius: 15px;
   border-width: medium;
   line-height: 2.5;
@@ -1236,8 +1262,8 @@ body {
 }
 
 .subscribe-button button{
-  border-color: #00008D;
-  color: #00008D;
+  border-color: #010155;
+  color: #010155;
   border-radius: 15px;
   border-width: medium;
   line-height: 2.5;
@@ -1419,17 +1445,18 @@ input[type=text] {
 .bottom-buttons button {
   background-color: transparent;
   border-color: transparent;
-  color: #00008D;
-  font-weight: 900 !important;
+  color: #010155;
+  font-weight: 500 !important;
   margin-left: 15px;
   margin-right: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /***** bottom header *****/
 .bottom-header {
   text-align: center;
   background-color: #FED5A5;
-  color: #00008D;
+  color: #010155;
   height: 220px;
 }
 
