@@ -19,7 +19,7 @@ body {
   background-size: cover; */
 }
 
-@media (min-width: 426px) {
+@media (min-width: 725px) {
   body {
     background-image: url("../img/background/background.svg");
     background-repeat: no-repeat;
@@ -118,21 +118,7 @@ body {
 
 }
 
-@media (max-width: 426px) {
-  .navbar-brand img {
-    max-height: 68px;
-  }
 
-  .nav-item a {
-    font-size: 12px;
-    margin-right: 2px;
-    margin-left: 2px;
-  }
-
-  .navbar-nav {
-    text-align: center;
-  }
-}
 
 
 /***** HOME SECTION *****/
