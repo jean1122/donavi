@@ -677,11 +677,13 @@ body {
 .navigation-banner-right {
   background-color: #FED5A5;
   color: #010155;
+  border-radius: 30px 0px 0px 30px;
 }
 
 .navigation-banner-left {
   background-color: #FED5A5;
   color: #010155;
+  border-radius: 0px 30px 30px 0px;
 }
 
 .step-number-left {
@@ -711,31 +713,25 @@ body {
   }
 
   .navigation-banner-right {
-    height: 500px;
+    height: 400px;
     margin-bottom: 25%;
     margin-left: 20%;
   }
 
   .navigation-banner-left {
-    height: 500px;
+    height: 400px;
     margin-bottom: 25%;
     margin-right: 20%;
   }
 
   .step-number-left h1 {
-    font-size: 150px;
+    font-size: 130px;
     margin-left: -30px;
-    margin-top: -100px;
+    margin-top: -160px;
   }
 
   .navigation-image-left img{
-    max-width: 500px;
-    margin-left: 40px;
-    margin-top: -130px;
-  }
-
-  .navigation-image-left video{
-    max-width: 500px;
+    max-width: 450px;
     margin-left: 40px;
     margin-top: -130px;
   }
@@ -744,15 +740,14 @@ body {
     width: 40%;
     margin-left: 20px;
     font-size: 24px;
-    margin-top: -90px;
+    margin-top: -160px;
   }
 
   .step-number-right h1 {
-    font-size: 150px;
+    font-size: 130px;
     margin-right: -50px;
-    margin-top: -90px;
-    /* margin-left: 50px; */
-    margin-left: 70%;
+    margin-top: -180px;
+    margin-left: 100%;
   }
 
   .navigation-image-right {
@@ -761,13 +756,7 @@ body {
 
   .navigation-image-right img{
     max-width: 500px;
-    margin-top: -130px;
-    margin-left: 10px;
-  }
-
-  .navigation-image-right video{
-    max-width: 500px;
-    margin-top: -130px;
+    margin-top: -170px;
     margin-left: 10px;
   }
 
@@ -775,7 +764,7 @@ body {
     width: 40%;
     margin-left: 10%;
     font-size: 24px;
-    margin-top: -90px;
+    margin-top: -180px;
   }
 
 
@@ -788,46 +777,40 @@ body {
   }
 
   .navigation-banner-right {
-    height: 450px;
+    height: 350px;
     margin-bottom: 20%;
     margin-left: 20%;
   }
 
   .navigation-banner-left {
-    height: 450px;
+    height: 350px;
     margin-bottom: 20%;
     margin-right: 20%;
   }
 
   .step-number-left h1 {
-    font-size: 150px;
-    margin-left: -30px;
-    margin-top: -70px;
+    font-size: 120px;
+    margin-left: -20px;
+    margin-top: -100px;
   }
 
   .navigation-image-left img{
-    max-width: 400px;
+    max-width: 370px;
     margin-left: 40px;
-    margin-top: -80px;
-  }
-
-  .navigation-image-left video{
-    max-width: 400px;
-    margin-left: 40px;
-    margin-top: -80px;
+    margin-top: -100px;
   }
 
   .navigation-description-right {
     width: 40%;
     font-size: 24px;
-    margin-top: -90px;
+    margin-top: -100px;
   }
 
   .step-number-right h1 {
-    font-size: 150px;
-    margin-top: -90px;
+    font-size: 120px;
+    margin-top: -120px;
     /* margin-left: 50px; */
-    margin-left: 70%;
+    margin-left: 120%;
   }
 
   .navigation-image-right {
@@ -835,22 +818,16 @@ body {
   }
 
   .navigation-image-right img{
-    max-width: 400px;
-    margin-top: -70px;
-    margin-left: 10px;
-  }
-
-  .navigation-image-right video{
-    max-width: 400px;
-    margin-top: -70px;
-    margin-left: 10px;
+    max-width: 370px;
+    margin-top: -100px;
+    margin-left: 60px;
   }
 
   .navigation-description-left {
     width: 40%;
     margin-left: 10%;
     font-size: 24px;
-    margin-top: -90px;
+    margin-top: -100px;
   }
 
 }
@@ -862,20 +839,20 @@ body {
   }
 
   .navigation-banner-right {
-    height: 400px;
+    height: 350px;
     margin-bottom: 25%;
     margin-left: 20%;
   }
 
   .navigation-banner-left {
-    height: 400px;
+    height: 350px;
     margin-bottom: 25%;
     margin-right: 20%;
   }
 
   .step-number-left h1 {
-    font-size: 150px;
-    margin-left: -30px;
+    font-size: 110px;
+    margin-left: -20px;
     margin-top: -100px;
   }
 
@@ -884,28 +861,22 @@ body {
   }
 
   .navigation-image-left img{
-    max-width: 400px;
+    max-width: 350px;
     margin-left: 0px;
-    margin-top: -100px;
-  }
-
-  .navigation-image-left video{
-    max-width: 400px;
-    margin-left: 0px;
-    margin-top: -100px;
+    margin-top: -80px;
   }
 
   .navigation-description-right {
-    width: 30%;
+    width: 35%;
     font-size: 22px;
     margin-top: -90px;
     margin-left: 2%;
   }
 
   .step-number-right h1 {
-    font-size: 150px;
+    font-size: 110px;
     margin-top: -90px;
-    margin-left: 60%;
+    margin-left: 120%;
   }
 
   .navigation-image-right {
@@ -913,13 +884,8 @@ body {
   }
 
   .navigation-image-right img{
-    max-width: 400px;
-    margin-top: -70px;
-  }
-
-  .navigation-image-right video{
-    max-width: 400px;
-    margin-top: -70px;
+    max-width: 350px;
+    margin-top: -80px;
   }
 
   .navigation-description-left {
@@ -1543,18 +1509,18 @@ body {
 
 /***** launching soon *****/
 .launching-soon-section {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 13%;
+  margin-right: 13%;
   text-align: center;
 }
 
 @media (min-width: 1440px) {
   .launching-soon-section h1 {
-    font-size: 90px;
+    font-size: 70px;
   }
 
   .launching-soon-section h2 {
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
@@ -1572,12 +1538,17 @@ body {
 
 @media (max-width: 768px) {
 
+  .launching-soon-section {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   .launching-soon-section h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .launching-soon-section h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
 }
@@ -1668,14 +1639,14 @@ body {
 @media (max-width: 768px) {
 
   .subscribe-button button {
-    font-size: 18px;
+    font-size: 16px;
     width: 160px !important;
     height: 50px;
     background-color: white;
   }
 
   .subscribe-button img {
-    max-width: 25px;
+    max-width: 20px;
     padding-right: 0px;
   }
 
