@@ -34,8 +34,10 @@
 }
 
 #unique-icon {
-  width: 77px;
-  height: 77px;
+  /* width: 77px;
+  height: 77px; */
+  width: 101px;
+  height: 89px;
 }
 
 #gift-icon {
