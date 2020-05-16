@@ -1878,6 +1878,28 @@ input[type=text] {
   font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 1280px) {
+
+    .bottom-buttons button {
+      font-size: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .bottom-buttons button {
+      font-size: 16px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+
+}
+
 @media (max-width: 768px) {
 
     .bottom-buttons button {
