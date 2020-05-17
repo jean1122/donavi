@@ -137,7 +137,7 @@ body {
 /***** HOME SECTION *****/
 
 .gifting-made-easy h1 {
-  font-size: 90px;
+  font-size: 110px;
 }
 
 .gifting-made-easy button {
@@ -162,8 +162,8 @@ body {
   }
 
   .gifting-made-easy {
-    margin-left: 20%;
-    margin-top: 20%;
+    margin-left: 30%;
+    margin-top: 15%;
   }
 
   .home-section img {
@@ -186,12 +186,12 @@ body {
   }
 
   .gifting-made-easy {
-    margin-left: 18%;
+    margin-left: 30%;
     margin-top: 10%;
   }
 
   .gifting-made-easy h1 {
-    font-size: 85px;
+    font-size: 90px;
   }
 
 }
@@ -208,14 +208,20 @@ body {
   }
 
   .gifting-made-easy {
-    margin-left: 18%;
+    margin-left: 30%;
     margin-top: 10%;
   }
 
   .gifting-made-easy h1 {
-    font-size: 78px;
+    font-size: 80px;
   }
 
+}
+
+@media (max-width: 1150px) {
+  .gifting-made-easy h1 {
+    font-size: 70px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -235,7 +241,7 @@ body {
   }
 
   .gifting-made-easy h1 {
-    font-size: 60px;
+    font-size: 70px;
   }
 
   .home-section button {
