@@ -24,20 +24,23 @@
 
 /* ICON */
 #clock-icon {
-  width: 77px;
-  height: 83px;
+  /* width: 77px;
+  height: 83px; */
+  width: 80px;
 }
 
 #easy-icon {
-  width: 84px;
-  height: 88px;
+  /* width: 84px;
+  height: 88px; */
+  width: 80px;
 }
 
 #unique-icon {
   /* width: 77px;
   height: 77px; */
-  width: 101px;
-  height: 89px;
+  /* width: 101px;
+  height: 89px; */
+  width: 80px;
 }
 
 #gift-icon {

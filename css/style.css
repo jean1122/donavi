@@ -143,8 +143,12 @@ body {
 .gifting-made-easy button {
   margin-top: 10px;
   background-color: #010155;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   border-radius: 15px;
   letter-spacing: 1px;
 }
@@ -378,8 +382,9 @@ body {
 
 @media (min-width: 1440px) {
   .meet-doni-header {
-    margin-left: 15%;
-    margin-top: 5%;
+    /* margin-left: 15%; */
+    margin-left: 17%;
+    margin-top: 8%;
   }
 
   .meet-doni-header h1 {
@@ -406,6 +411,10 @@ body {
     margin-top: 30px;
   }
 
+  #its-unique {
+    margin-top: 45px !important;
+  }
+
   .card-text-container {
     margin-top: 4%;
     margin-left: 4%;
@@ -421,7 +430,7 @@ body {
 @media (max-width: 1440px) {
 
   .meet-doni-header {
-    margin-left:10%;
+    margin-left:11%;
     margin-top: 8%;
   }
 
